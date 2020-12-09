@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FuncPra Js</title>
+</head>
+<body>
+    <a href="javascripip.html">Function</a>
+    <a href="js.html">Var</a>
+    <a href="index.html">Home</a>
+    <script>
+        var jeffDev = function(youDidIt) {
+            alert(youDidIt)
+        };
+
+        var substract = function(num1, num2) {
+            return num1 - num2
+        };
+
+        var multiply = function(number1, number2) {
+            return number1 * number2
+        }
+
+        function threeTimes(numb1, numb2, numb3) {
+            return numb1 * numb2 * numb3
+        }
+
+        var two = 2
+
+        var three = 3
+
+        var six = 6
+
+        alert("The subtraction is " + substract(8, 4) + " . ");
+        alert("The multiple is " + multiply(3, 6) + " . ");
+
+        var divide = function(div1, div2) {
+            return div1 / div2 
+        }
+
+        var result = divide(49, 7)
+        jeffDev("The division is " + result + " . ");
+
+        function remainder(int) {
+            return result % int;
+        }
+
+        var int = 9
+
+
+        jeffDev("The intager is " + remainder() + " . ");
+
+        // Prompt
+        var age = prompt("Enter your age: ")
+
+        var name = prompt("Enter your name")
+
+        var favFood = prompt("Your favorite food?")
+
+        var person = parseInt(age + name + favFood);
+
+        alert(person);
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
